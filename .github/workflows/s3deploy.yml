@@ -1,4 +1,4 @@
-yml
+name: Upload Website
 
 on:
   push:
