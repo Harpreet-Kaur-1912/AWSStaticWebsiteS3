@@ -3,7 +3,7 @@ name: Upload website
 on:
   push:
     branches:
-      - main  # Change to 'main' if your repo uses 'main' instead of 'master'
+      - main # Change to 'main' if your repo uses 'main' instead of 'master'
 
 permissions:
   contents: read
