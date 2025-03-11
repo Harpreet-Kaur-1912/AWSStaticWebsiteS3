@@ -1,6 +1,7 @@
 yaml
 name: Upload Website
 on:
+
   push:
     branches:
     - master
