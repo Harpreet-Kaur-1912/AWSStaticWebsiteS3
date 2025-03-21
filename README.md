@@ -4,11 +4,6 @@ This repository contains a static website and a GitHub Actions workflow that aut
  
 Project Structure
 
-graphql
-
-Copy
-
-Edit
 
 ├── .github/workflows/   # Contains GitHub Actions workflow files
 
