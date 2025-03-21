@@ -1,17 +1,27 @@
-🌍 Website Deployment using GitHub Actions & Amazon S3
+Website Deployment using GitHub Actions & Amazon S3
 
 This repository contains a static website and a GitHub Actions workflow that automates the deployment of the website to an Amazon S3 bucket. The workflow ensures that any updates pushed to the repository are automatically deployed to S3, making website management seamless.
+ 
+Project Structure
 
-📁 Project Structure
 graphql
+
 Copy
+
 Edit
+
 ├── .github/workflows/   # Contains GitHub Actions workflow files
+
 │   ├── s3deploy.yml     # Workflow file for deploying to S3
+
 │
 ├── Website/             # Folder containing website files
+
 │   ├── index.html       # Main HTML file of the website
+
 │   ├── README.md        # Project documentation
+
+
 │
 └── Other configuration files (if needed)
 
@@ -48,7 +58,7 @@ The .github/workflows/s3deploy.yml file contains the deployment logic.
 Ensure the bucket name and AWS region match your setup.
 
 4️⃣ Deploy Your Website
-Push changes to the main branch, and GitHub Actions will handle the deployment automatically! 🎉
+Push changes to the main branch, and GitHub Actions will handle the deployment automatically! 
 
 🛡 Security Considerations
 
